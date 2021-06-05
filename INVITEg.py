@@ -35,7 +35,7 @@ except:
     quit()
 print("done login ")
 os.system("clear")
-chatid = c.get_from_code(input("Give me the Url of the chat : "))
+chatid = c.get_from_code(input("Give me the Url of the chat : ").objectId)
 os.system("clear")
 
 
@@ -44,7 +44,7 @@ cids = []
 khacker  = int(input(" How many comms you want to invite : "))
 os.system("clear")
 for i in range(khacker):
-    cid = c.get_from_code(input("Give me the url of the Community : "))
+    cid = c.get_from_code(input("Give me the url of the Community : ").objectId)
     cids.append(cid)
     os.system("clear")
     print("Done")
