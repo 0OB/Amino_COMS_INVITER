@@ -44,7 +44,7 @@ cids = []
 khacker  = int(input(" How many comms you want to invite : "))
 os.system("clear")
 for i in range(khacker):
-    cid = c.get_from_code(input("Give me the url of the Community : ")
+    cid = c.get_from_code(input("Give me the url of the Community : "))
     cids.append(cid)
     os.system("clear")
     print("Done")
